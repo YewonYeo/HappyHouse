@@ -25,13 +25,38 @@
 
 
 ### 📌 주요 기능
-#### 1. 회원관리
+### 1. 회원관리
+<span>
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186188983-4427a540-eef6-4768-a832-83a4d6261e46.png">
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186189476-3933d567-811c-4339-90c0-5c0285c159c9.png">
+</span>
+
+### 
+
 - jwt 를 이용하여 access token 을 서버에서 생성하고, 회원의 세션스토리지에 저장하는 형식으로 로그인 기능을 구현.
 - 회원가입 시, 정규표현식을 사용하여 아이디, 비밀번호, 이름 입력 시 유효성을 검사.
 - axios 를 이용하여 아이디 중복 여부 검사.
 - 비밀번호 찾기는 가입한 아이디, 이메일, 이름을 입력하여 서버에 있는 정보인 경우 가입한 이메일로 임시 비밀번호 전송.
 
-#### 2. 아파트 실거래가 검색 및 상세정보 조회
+### 2. 아파트 실거래가 검색 및 상세정보 조회
+
+#### 아파트 검색 페이지
+
+<span>
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186190437-2b97acd8-40a7-40fd-bcd8-c7b486e97998.png">
+</span>
+
+#### 아파트 주변정보 상세페이지
+
+<span>
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186191289-ecd7cfed-90c2-4411-b596-d48e7726aa0f.png">
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186190461-a6a960a7-58c1-404b-8218-75ceeb70c4dd.png">
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186190475-39303001-ee6c-42bd-90f4-76485a778196.png">
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186190482-df1ad0b7-94ad-4ec0-bdd9-f72cd646e796.png">
+</span>
+
+###
+
 - 카카오 맵 API를 이용하여 지도 레벨 수준에 따라 클러스터링, 마커를 표시.
 - 지도의 레벨이 낮아질수록(지도가 확대될 수록) 아파트 이름, 가격, 평수 정보를 담은 커스텀
 오버레이로 마커 표시.
@@ -40,16 +65,40 @@
 - 지도에 표시된 마커를 클릭시 해당 아파트의 정보, 최근 실거래가 및 거래 내역, 주변 대비 평균
 가격, 주변 환경시설 관련정보(교육, 교통, 마트 등)를 별도의 창으로 표시.
 
-#### 3. 아파트 검색 필터링 및 관심 아파트 등록
+### 3. 아파트 검색 필터링 및 관심 아파트 등록
+
+<span>
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186191974-8f1363e7-098c-4953-9533-5acac4680f2a.png">
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186192741-42c22b06-b5bc-4438-a4df-8670b2b35d19.png">
+</span>
+
+###
+
 - 평수, 거래 가격을 기준으로 지도 내 표시된 아파트 목록 필터링 기능.
 - 유저가 등록한 관심 아파트는 5개까지 저장 가능하며, 관심 목록에 있는 아파트 클릭시 지도가
 해당 위치로 이동.
 
-#### 4. Q&A, 공지사항 게시판
+### 4. Q&A, 공지사항 게시판
+
+<span>
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186192042-02579664-957b-4097-ada9-5e9bf3f84454.png">
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186192042-02579664-957b-4097-ada9-5e9bf3f84454.png">
+</span>
+
+###
+
 - 공지사항 게시판은 관리자 계정만 글쓰기/수정/삭제 가능.
 - 게시글, 댓글의 작성자가 현재 로그인한 이용자와 같은 경우에만 수정/삭제 가능.
 
-#### 5. 뉴스 게시판
+### 5. 뉴스 게시판
+
+<span>
+<img width=49% src="https://user-images.githubusercontent.com/98465383/186192027-0b431679-ea23-45b3-aae2-9020331cd42d.png">
+</span>
+
+###
+
+
 - jsoup를 활용하여 실시간으로 네이버 부동산 뉴스를 크롤링.
 - 제목 클릭시 해당 뉴스 페이지로 이동.
 
