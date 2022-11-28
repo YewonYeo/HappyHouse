@@ -2,7 +2,7 @@
 
 ### 🏆 삼성 청년 SW 아카데미 7기 1학기 프로젝트 우수상 수상
 
-![Group 433](https://user-images.githubusercontent.com/98465383/204172658-32f7284a-fcdc-429f-b316-76d7d5f20d69.png)
+![Group 437](https://user-images.githubusercontent.com/98465383/204216422-6320e908-432a-4229-931d-5f9560a22699.png)
 
 ---
 <br/>
@@ -37,6 +37,7 @@
 <img src="https://img.shields.io/badge/Java: Zulu 1.8-007396?style=for-the-badge&logo=java&logoColor=white">
 </p>
 
+<br/>
 
 ## 💡 주요 기능
 ### 1. 회원관리
